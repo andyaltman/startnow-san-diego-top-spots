@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>  
+    <link rel="stylesheet" href="topspotstyles.css"/>
+</head>
+
+<body>
+    <!-- Write your markup here -->
+    <title>San Diego Top Spots</title>
+    <h1>San Diego Top Spots</h1>
+    <div id="map"></div>
+    <div id="events"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCE9dLgOWaZGcFA48ewZgChBlLhp-cFdyI&callback=initMap"
+    async defer></script>
+
+    
+    <div id="spots-table">
+
+        <table id ="top-spots">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Don't forget to add your <script> tag here -->
+    <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
